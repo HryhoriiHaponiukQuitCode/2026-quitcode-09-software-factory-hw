@@ -41,6 +41,7 @@
 - QA proof pack (C): https://github.com/HryhoriiHaponiukQuitCode/therapy-scheduling/blob/f5cd1f69df37a46b6c9d250b822fb0d96a8adbe3/docs/qa/proof-pack.md
 - Не перевірено (C): AC-INS-06 на проді лише GET картки без входу; AC-INS-05 на проді одна пряма спроба через API; «здатен упасти» для AC-INS-01, 03, 04 — лише заяви в описах PR; правило «повернути Not set не можна» без власного AC; статус у розкладі терапевта без тесту; стан форми після чужої зміни без тесту; відео прогонів 1–2; PR #54 без рев'ю CodeRabbit (ліміт) — подробиці в розділі «Не перевірено» proof pack
 - Відхилення від PM (C): не надходило (issues «Відхилення від вимог» у репо немає)
+- Приймання PM (C): самоприймання: PM і розробник одна людина (PM передано 03.11), оцінку має підтвердити викладач. Підпис PM: https://github.com/HryhoriiHaponiukQuitCode/therapy-scheduling/pull/56#issuecomment-6922886029 (16.11.2026): AC-INS-01…06 ✅, кадри «Тоді» звіту UAT переглянуто, вердикт агента (PASS) збігається з кадрами. Таблиця приймання PM: вкладка therapy-scheduling, AC-INS-01…06 — оцінка 3, «прийнято»
 - Рядки `docs/conformance.md` (D): https://github.com/HryhoriiHaponiukQuitCode/therapy-scheduling/blob/f5cd1f69df37a46b6c9d250b822fb0d96a8adbe3/docs/conformance.md — AC-INS-01…06 «реалізовано»
 - Акаунти для нових ролей зрізу 3 (D): нових ролей немає
 - Ретро «що взяти з фабрики» (D): https://github.com/HryhoriiHaponiukQuitCode/therapy-scheduling/blob/f5cd1f69df37a46b6c9d250b822fb0d96a8adbe3/docs/qa/retro-ws9.md
